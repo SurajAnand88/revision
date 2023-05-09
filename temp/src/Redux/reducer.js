@@ -13,7 +13,7 @@ const initialState = {
       description: "This is tuesday's task",
       status: "new",
       subtask: [
-        { name: "10:00 AM  Assignment", checked: true },
+        { name: "10:00 AM Assignment", checked: true },
         { name: "12:00 PM Assignment", checked: false },
         { name: "01:00 PM Assignment", checked: true },
         { name: "04:00 PM Assignment", checked: true },
@@ -25,7 +25,7 @@ const initialState = {
       description: "This is wednesday's task",
       status: "new",
       subtask: [
-        { name: "10:00 AM  Assignment", checked: true },
+        { name: "10:00 AM Assignment", checked: true },
         { name: "12:00 PM Assignment", checked: true },
         { name: "01:00 PM Assignment", checked: true },
       ],
@@ -36,7 +36,7 @@ const initialState = {
       description: "This is thursday's task",
       status: "progress",
       subtask: [
-        { name: "10:00 AM  Assignment", checked: true },
+        { name: "10:00 AM Assignment", checked: true },
 
         { name: "04:00 PM Assignment", checked: true },
       ],
@@ -47,7 +47,7 @@ const initialState = {
       description: "This is friday's task",
       status: "done",
       subtask: [
-        { name: "10:00 AM  Assignment", checked: true },
+        { name: "10:00 AM Assignment", checked: true },
         { name: "12:00 PM Assignment", checked: true },
         { name: "01:00 PM Assignment", checked: true },
         { name: "04:00 PM Assignment", checked: true },
