@@ -1,0 +1,50 @@
+=Q -> Explain in brief what is Node js?
+-->Node.js was written initially by Ryan Dahl in 2009, 
+Node.js is an open-source, cross-platform, JavaScript runtime
+ environment that executes JavaScript code outside of a web browser.
+ Node.js is a great web framework for beginners because it works great for data-intensive applications, like streaming and 
+ real-time apps, and Node.js makes it easy to start building the back-end.
+ Node.js allows us to use JavaScript everywhere and on any operation system , incliding MacOs,
+ Linux and  Windows.We often use Node.js for building back-end services like APIs, Web App, or Mobile App.
+ Nodejs runtime environment is built on the Google Chrome v8 javascript runtime engine.
+ Node.js has npm, a node package manager, with a library of over 350,000 packages to help get
+  your project or application off the ground with efficiency and ease.
+
+Q ->How is node js non-blocking?
+--> Node.js is based on an event-driven non-blocking I/O model.
+Non-blocking refers to the program refers to the program that does not
+ block the execution of further operations. Non-Blocking methods are 
+ executed asynchronously. Asynchronously means that the program may not 
+ necessarily execute line by line. The program calls the function and 
+ move to the next operation and does not wait for it to return.
+
+ Q -->What is throughput?
+ --> Throughput is a measure of how many units of information a system 
+ can process in a given amount of time.In data transmission, network 
+ throughput is the amount of data moved successfully from one place to
+  another in a given time period. Network throughput is typically measured
+in bits per second (bps), as in megabits per second (Mbps) or gigabits per second (Gbps).
+In storage systems, throughput refers to either of the following:
+
+the amount of data that can be received and written to the storage medium; or
+the amount of data read from media and returned to the requesting system.
+Storage throughput is typically measured in bytes per second (Bps). It can
+ also refer to the number of discrete input or output (I/O) operations
+  responded to in a second, or IOPS.
+
+Q ->How is Node js having high IO throughput?
+--> What node.js does is that while the request is waiting it
+ makes another request. This is what non-blocking means. Node does
+  not wait for a request to complete before processing all the other
+ requests. This means by default all requests you make in node.js 
+ are concurrent - they don't wait for other requests to finish.On the
+ request completion side any responses received from the server triggers
+ node to search the event queue (really it's just a set at this point because
+ any item in the queue can complete at any time) and find the corresponding callback to call.
+Executing the callback do take CPU time but not waiting for the network request.
+
+Q -> What are CPU intensive tasks?
+CPU intesive process are those processess which are going to put more load on CPU.
+It means they require more CPU power to complete their job.
+for example. Encoding / Rendering Videos
+Network requests and Large calculations
