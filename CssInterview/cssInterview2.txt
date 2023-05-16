@@ -1,0 +1,44 @@
+1. To add comments in CSS, you can use the forward slash and asterisk characters to start a comment, and the asterisk and forward slash characters to end a comment. Anything between these characters will be ignored by the browser.
+
+2. Pseudo-classes are used in CSS to select and style elements based on their state or position in the document. For example, :hover is a pseudo-class that is used to select and style an element when the user hovers over it with their mouse.
+
+3. Specificity is the way that CSS determines which styles to apply to an element when multiple styles are defined for the same element. Specificity is based on the number and type of selectors used in a CSS rule.
+
+4. The translate() method allows an element to be moved from its current position by a specified amount along the X and/or Y axis.
+
+5. The flex model in CSS includes properties such as display:flex, flex-direction, flex-wrap, justify-content, align-items, and align-content. These properties allow for flexible and responsive layout of elements within a container.
+
+6. Flexbox and grid are two different CSS layout models. Flexbox is used for one-dimensional layouts, such as laying out items in a row or column, while grid is used for two-dimensional layouts, such as laying out items in a grid pattern.
+
+7. An example where grid can be used is to lay out a complex, multi-column website design. An example where flexbox can be used is to center elements within a container or to create a responsive navigation menu.
+
+8. An example where only grid can be used is to create a complex, two-dimensional layout, such as a calendar or a dashboard. There are no examples where only flexbox can be used, as it is typically used in combination with other layout techniques.
+
+9. Combinators are special characters in CSS that are used to select elements based on their relationship to other elements in the document. Examples of combinators include the space combinator, the greater than combinator, and the plus combinator.
+
+10. The object-fit property in CSS is used to specify how an image or video should be resized to fit into its container. The available options for object-fit are contain, cover, fill, none, and scale-down.
+
+11. The rotate property in CSS is used to rotate an element around its center point. The value of the rotate property is specified in degrees.
+
+12. The @keyframes rule can be used to define animations in CSS. The @keyframes rule specifies the name of the animation, as well as the properties and values that should be applied at each keyframe of the animation.
+
+13. To select elements which contain a particular attribute value, you can use the attribute selector in CSS. The attribute selector uses the syntax [attribute=value], where attribute is the name of the attribute and value is the value that you want to select.
+
+14. The @media rule in CSS is used to specify styles that should only be applied under certain conditions, such as when the screen size is below a certain threshold. The @media rule uses media queries to specify the conditions under which the styles should be applied.
+
+15. To override properties of an element, you can use the !important declaration in CSS. The !important declaration should be added after the property value, and it will give that property priority over any other styles that may be applied to the element.
+
+16. To select every alternate element in a list of elements, you can use the :nth-child() pseudo-class in CSS. The :nth-child() pseudo-class takes an argument that specifies the pattern of elements to be selected, such as odd or even elements, or elements with a particular index.
+
+17. The ranking of selectors with respect to specificity is based on the number and type of selectors
+
+18. To apply the same styles to multiple selectors, you can separate the selectors with a comma in CSS. For example, if you wanted to apply the same styles to all h1, h2, and h3 elements, you could write:
+
+```
+h1, h2, h3 {
+  color: blue;
+  font-size: 24px;
+}
+```
+
+19. Relative and absolute positioning are two different ways to position elements in CSS. Relative positioning allows an element to be positioned relative to its original position in the document flow, while absolute positioning allows an element to be positioned relative to its closest positioned ancestor element.
