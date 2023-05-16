@@ -1,0 +1,7 @@
+1. Some new things happening in the web include advancements in Artificial Intelligence, Virtual and Augmented Reality, Progressive Web Apps, WebAssembly, and Web Components.
+
+5. Coding standards matter because they help ensure consistency, readability, maintainability, and scalability of code. By following coding standards, developers can make their code more understandable, predictable, and easier to debug. Some patterns that developers might follow include using descriptive variable names, commenting code, writing modular code, using version control, and following the DRY (Don't Repeat Yourself) principle.
+
+6. Managing responsive websites involves designing and developing websites that adapt to different screen sizes and devices. This includes using responsive design techniques such as media queries, flexible grids, and scalable images, as well as testing websites across different devices and browsers.
+
+7. When writing software, developers care about creating high-quality, efficient, and effective code that meets the needs of the end-users. This includes considering factors such as usability, accessibility, security, and scalability, as well as testing code to ensure it works as intended.

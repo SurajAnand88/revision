@@ -1,3 +1,98 @@
-1. Explain Redux to 5 year old (ELI5)?
+Explain redux to a 5 year old (ELI5) ?
+Redux is like a toy box where we keep all our toys. Our toys are like our app's data, and we can access them whenever we want. We can also make sure that our toys are safe and organized in the toy box.
 
--->
+How is redux different from context API?
+Both Redux and Context API are used to manage application state, but Redux is more powerful and flexible than Context API. Redux has a single source of truth, and it separates state from components, making it easier to manage and maintain large applications.
+
+What does useSelector do?
+useSelector is a hook in React Redux that allows you to extract data from the Redux store and use it in your components. It's a way to subscribe to a slice of the store and get notified whenever it changes.
+
+What is immutability?
+Immutability means that an object or data cannot be changed after it has been created. In programming, it means that once an object or data is created, it cannot be modified. Instead, a new object or data is created with the desired changes.
+
+Why do we need to spread the state in redux?
+In Redux, we need to spread the state because Redux requires the state to be immutable. This means that we cannot modify the state directly. Instead, we create a new state object with the desired changes and return it. Spreading the state allows us to create a new object with the same properties as the previous state, but with new or updated values.
+
+What does Object.freeze() do?
+Object.freeze() is a method in JavaScript that freezes an object and makes it immutable. Once an object is frozen, it cannot be modified in any way. This is useful in Redux because it allows us to ensure that our state is immutable and cannot be changed accidentally.
+
+Why is immutability required by Redux?
+Immutability is required by Redux because it allows us to create predictable and maintainable code. If the state is mutable, it can be changed by any component at any time, making it difficult to track changes and debug issues. Immutability ensures that the state is consistent and can only be changed by specific actions.
+
+How does Redux use shallow equality checking?
+Redux uses shallow equality checking to compare the previous state and the new state. Shallow equality means that only the top-level properties of an object are compared. This is faster than deep equality, which compares all properties and values of an object.
+
+How well does Redux “scale” in terms of performance and architecture?
+Redux scales well in terms of performance and architecture. It allows for a clear separation of concerns and a single source of truth for the state, making it easy to manage large and complex applications. Redux also uses immutable data structures, which reduces the number of re-renders and improves performance.
+
+How does Redux compare to the React Context API?
+Redux and React Context API both provide a way to manage state in React applications, but they have different use cases. Redux is better suited for large and complex applications, while Context API is more suitable for smaller applications with simple state management needs.
+
+FAQs of redux https://redux.js.org/faq/
+The Redux FAQ provides answers to many common questions about Redux, including how to use it, how it works, and best practices.
+
+What is JSX?
+JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files. It's used in React to create and render components.
+
+What is Conditional Rendering?
+Conditional rendering is a technique in React where a component is rendered conditionally based on certain conditions. This allows you to show or hide components based on user input or other factors.
+
+What
+is tree-shaking?
+
+Tree-shaking is a technique used by modern JavaScript bundlers like Webpack to remove unused code from a project. It analyzes the codebase and identifies any code that is not used and removes it from the final bundle. This can help reduce the size of the bundle and improve performance.
+
+What are some features of using webpack?
+Webpack is a powerful tool for bundling JavaScript modules, and it comes with several useful features, including:
+
+Support for commonJS, AMD, and ES6 module formats
+Code splitting to improve performance and reduce load times
+A plugin system for extending functionality
+A development server for testing and debugging
+Tree shaking to remove unused code
+Hot module replacement for faster development
+What are Controlled and Uncontrolled components?
+Controlled components are React components where the value of an input element is controlled by React. The value is passed to the component as a prop, and the component calls a function provided by React to update the value. Uncontrolled components, on the other hand, manage their own state internally and do not rely on React to manage their state.
+
+What is flux architecture?
+Flux is a design pattern used to manage data flow in applications. It's similar to Redux in that it separates state from components, but it also includes a Dispatcher, which handles actions and updates the state. Flux is useful for large and complex applications that require a more robust data flow management system.
+
+What does React.useCallback do?
+React.useCallback is a hook in React that memoizes a function and returns a memoized version of the function. This can improve performance by preventing unnecessary re-renders of components.
+
+What does React.memo mean?
+React.memo is a higher-order component in React that memoizes a component and returns a memoized version of the component. This can improve performance by preventing unnecessary re-renders of components.
+
+What is Higher-order Components?
+Higher-order Components (HOCs) are functions that take a component and return a new component with additional functionality. They can be used to add common functionality to multiple components and reduce code duplication.
+
+What are keys in React? Why are keys important?
+Keys are a special attribute in React that help identify which items in a list have changed. They help React efficiently update the DOM by only re-rendering the components that have changed. Keys are important because they help improve performance and prevent bugs in large and complex applications.
+
+What is reconciliation?
+Reconciliation is the process in React where it compares the previous state of a component with its current state and determines what changes need to be made to the DOM. Reconciliation helps improve performance by only updating the parts of the DOM that have changed.
+
+Explain life cycle diagram with hooks?
+The life cycle diagram in React shows the different stages of a component's life cycle, including when it is mounted, updated, and unmounted. With the introduction of hooks in React, the life cycle diagram has changed slightly, but the core concepts remain the same.
+
+The basic stages of a component's life cycle include:
+
+Mounting: when a component is first added to the DOM
+Updating: when a component's props or state change
+Unmounting: when a component is removed from the DOM
+With hooks, the life cycle methods have been replaced with equivalent hook functions, such as useEffect, which can be used to perform actions at different stages of the life cycle.
+
+What does the cleanup function in useEffect do?
+The cleanup function in useEffect is a function that is called when a component is unmounted. It's used to clean up any resources that the component has created, such as event listeners or timers, to prevent memory leaks and improve performance.
+
+What are the rules
+of hooks?
+
+The rules of hooks in React are:
+
+Only call hooks at the top level of a function component or a custom hook.
+Only call hooks from React function components or custom hooks, not from regular JavaScript functions or class components.
+The name of the hook must start with "use".
+Hooks must be called in the same order on every render.
+Hooks cannot be called conditionally, they must always be called unconditionally.
+These rules are in place to ensure that hooks are used correctly and to prevent bugs and unexpected behavior in React applications.

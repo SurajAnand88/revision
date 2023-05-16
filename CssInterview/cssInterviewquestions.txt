@@ -1,0 +1,41 @@
+"!important" is a CSS rule that gives priority to a particular style over other styles that are applied to the same element.
+
+The box model is a fundamental concept in CSS that defines how elements are rendered on a web page. It consists of four layers: content, padding, border, and margin. The content layer is the actual element content, while the padding layer adds space between the content and the border. The border layer is the line that surrounds the element, and the margin layer adds space between the border and the surrounding elements.
+
+Positioning in CSS refers to how an element is positioned on a web page. Position absolute positions the element relative to its closest positioned ancestor element, position relative positions the element relative to its normal position, and position fixed positions the element relative to the browser window.
+
+CSS positioning refers to how elements are positioned on a web page using CSS. This can include setting the position, top, bottom, left, and right properties to adjust the placement of an element.
+
+Display none removes the element from the page and hides it from view, while display hidden hides the element but still takes up space on the page.
+
+Flex and grid are two different CSS layout systems. Flexbox is used for simpler, one-dimensional layouts, while grid is used for more complex, two-dimensional layouts.
+
+BEM stands for Block Element Modifier and is a CSS methodology that helps organize and modularize CSS code by breaking it down into reusable components.
+
+z-index is a CSS property that controls the stacking order of elements on a page. The stacking context refers to the order in which elements are stacked on top of each other, and is determined by factors such as the z-index property and the position property of each element.
+
+When you enter a URL into a web browser, the browser sends a request to a DNS server to look up the IP address of the server hosting the website. Once the IP address is obtained, the browser sends a request to the server for the website content, which is then rendered on the page.
+
+URL stands for Uniform Resource Locator and consists of four parts: the protocol in use (such as http or https), the hostname of the server (such as www.example.com), the location of the file on the server (such as /index.html), and any arguments to the file (such as ?id=123).
+
+HTTP is a protocol used for transferring data over the internet, primarily between web servers and web browsers.
+
+TCP is a protocol used for establishing connections and transmitting data between devices over the internet.
+
+HTTP methods are commands used by web browsers and servers to interact with each other. They include GET, POST, PUT, DELETE, and more.
+
+HTTP headers are additional pieces of information sent along with an HTTP request or response that provide more context or metadata about the request or response.
+
+HTTP response codes indicate the status of an HTTP request and include 2xx (successful), 3xx (redirect), 4xx (client error), and 5xx (server error) codes.
+
+Cache control on an HTTP response refers to the settings that control how a browser caches and stores the response data.
+
+Polling is a technique used in web development where the browser sends repeated requests to the server to check for new data or changes.
+
+Long polling is a variation of polling where the browser sends a request to the server and keeps the connection open until new data is available.
+
+Web sockets are a protocol used for establishing real-time, two-way communication between a web browser and a server.
+
+Web sockets differ from HTTP in that they allow for real-time, bi-directional communication, whereas HTTP is primarily a one-way communication protocol.
+
+HTTPS stands for Hypertext Transfer Protocol Secure and is a protocol used for secure communication over the internet. HTTPS is a more secure version of HTTP, and it encrypts data that is sent between a browser and a web server to protect against interception and tampering by third parties. HTTPS is often used for sensitive transactions, such as online banking or shopping.
