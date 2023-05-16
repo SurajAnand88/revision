@@ -39,3 +39,21 @@ Web sockets are a protocol used for establishing real-time, two-way communicatio
 Web sockets differ from HTTP in that they allow for real-time, bi-directional communication, whereas HTTP is primarily a one-way communication protocol.
 
 HTTPS stands for Hypertext Transfer Protocol Secure and is a protocol used for secure communication over the internet. HTTPS is a more secure version of HTTP, and it encrypts data that is sent between a browser and a web server to protect against interception and tampering by third parties. HTTPS is often used for sensitive transactions, such as online banking or shopping.
+
+Cross-Origin Resource Sharing (CORS) is a mechanism that allows web browsers to make cross-domain requests while maintaining security. It is a security feature that blocks web pages from making requests to a different domain than the one that served the web page.
+
+Access-Control-Allow-Origin header is a response header used by servers to indicate which origins are allowed to access the content of a web page.
+
+Clickjacking is a type of attack where a malicious website is disguised as a legitimate website to trick the user into clicking on something they did not intend to click on. To fix it, websites can use the X-Frame-Options header or the Content-Security-Policy header.
+
+Time to first byte (TTFB) is the time taken by a server to respond to the first request from a client. Page load time is the time taken by a website to fully load and display all the content on the webpage.
+
+Content Delivery Networks (CDN) are a network of servers distributed across different geographical locations that store and deliver cached content to users based on their location. They are used to improve website performance, reduce latency, and handle heavy traffic.
+
+Client-Side Rendering (CSR) and Server-Side Rendering (SSR) are two approaches to rendering web pages. CSR involves loading a web page's content using JavaScript on the client-side, while SSR involves generating HTML content on the server-side.
+
+Progressive Rendering is a technique used to render a web page in parts as it loads. It allows the user to see the content of the web page as soon as possible, rather than waiting for the entire page to load.
+
+Preloading and Prefetching are two techniques used to optimize the loading of web pages. Preloading involves loading resources needed for a web page before they are requested, while Prefetching involves loading resources that might be needed in the future.
+
+Service workers are scripts that run in the background of a web browser and intercept network requests. They are used to enable offline access, push notifications, and improve website performance.
